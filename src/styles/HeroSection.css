@@ -1,0 +1,80 @@
+/* Hero Section Styles for Elmentor Landing Page */
+.elmentor-hero {
+  width: 100%;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #F5F7FA 70%, #e3e8f0 100%);
+  padding: 4rem 1.5rem 3rem 1.5rem;
+  box-sizing: border-box;
+}
+.elmentor-hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.elmentor-hero-title {
+  font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #374151;
+  margin-bottom: 1.5rem;
+}
+.elmentor-hero-slogan {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1A237E;
+  margin-top: 0.5rem;
+}
+.elmentor-hero-subhead {
+  font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #374151;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+.elmentor-hero-quote {
+  font-style: italic;
+  color: #1A237E;
+}
+.elmentor-hero-cta {
+  display: inline-block;
+  background: #FF9800;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 0.85rem 2.25rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(26,35,126,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.elmentor-hero-cta:hover,
+.elmentor-hero-cta:focus {
+  background: #e07c00;
+  box-shadow: 0 4px 16px rgba(26,35,126,0.12);
+  outline: none;
+}
+@media (max-width: 600px) {
+  .elmentor-hero {
+    min-height: 60vh;
+    padding: 2.5rem 0.5rem 2rem 0.5rem;
+  }
+  .elmentor-hero-title {
+    font-size: 1.5rem;
+  }
+  .elmentor-hero-slogan {
+    font-size: 1rem;
+  }
+  .elmentor-hero-subhead {
+    font-size: 1rem;
+  }
+  .elmentor-hero-cta {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
