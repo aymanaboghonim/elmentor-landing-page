@@ -5,6 +5,8 @@ import './App.css'
 import Header from './components/Header.jsx';
 import './styles/Header.css';
 import HeroSection from './sections/HeroSection.jsx';
+import AboutSection from './sections/AboutSection.jsx';
+import './styles/AboutSection.css';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,7 @@ function App() {
       <HeroSection />
       {/* Main content sections will go here */}
       <main style={{ marginTop: 80 }}>
+        <AboutSection />
         {/* Placeholder for About, etc. */}
         <section id="about" style={{ height: '100vh', background: '#FFFFFF', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <h2>About Our Services</h2>
