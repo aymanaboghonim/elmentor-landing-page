@@ -57,26 +57,26 @@ This section provides a comprehensive overview of the Elmentor Program, detailin
 #### Specific Content & Assets Required (Mission & Core Values):
 * **Headline:** "Mission & Core Values"
 * **Content Points (bulleted list):**
-    * Empowering tech professionals through dedicated mentorship and collaborative knowledge sharing.
-    * Fostering a transparent, inclusive, and supportive community environment.
-    * Encouraging continuous learning, professional growth, and the pursuit of excellence.
-    * Providing genuine value and unwavering support for every member's journey.
+    * "Empowering tech professionals through dedicated mentorship and collaborative knowledge sharing."
+    * "Fostering a transparent, inclusive, and supportive community environment."
+    * "Encouraging continuous learning, professional growth, and the pursuit of excellence."
+    * "Providing genuine value and unwavering support for every member's journey."
 * **(Optional) Icon:** A relevant icon representing mission/values (e.g., a target, a group of people, a growing plant).
 
 #### Specific Content & Assets Required (What We Offer):
 * **Headline:** "What We Offer"
 * **Content Points (bulleted list):**
-    * Mentorship from experienced industry leaders and Microsoft MVPs.
-    * Access to curated knowledge, learning resources, and exclusive content.
-    * Networking opportunities with a diverse global community of tech professionals.
-    * Opportunities for hands-on experience through real-world community projects and open-source contributions.
-    * Comprehensive career development support (CV reviews, referrals, job offers).
+    * "Mentorship from experienced industry leaders and Microsoft MVPs."
+    * "Access to curated knowledge, learning resources, and exclusive content."
+    * "Networking opportunities with a diverse global community of tech professionals."
+    * "Opportunities for hands-on experience through real-world community projects and open-source contributions."
+    * "Comprehensive career development support (CV reviews, referrals, job offers)."
 
 #### Specific Content & Assets Required (How We Work):
 * **Headline:** "How We Work: Our Platforms"
-* **Content Points (bulleted list with icons):**
-    * **GitHub:** (Use GitHub Octocat icon from `react-icons` if possible) Our central knowledge base for structured documentation, collaborative project development, and transparent information sharing. (Link to Elmentor Program GitHub Org: https://github.com/ElmentorProgram)
-    * **Microsoft Teams:** (Use Microsoft Teams icon from `react-icons` if possible) Our primary platform for daily communication, real-time discussions, group collaboration, and community announcements.
+* **Content Points (bulleted list with icons):
+    * **GitHub:** (Use GitHub Octocat icon from `react-icons` if possible) "Our central knowledge base for structured documentation, collaborative project development, and transparent information sharing." (Link to Elmentor Program GitHub Org: https://github.com/ElmentorProgram)
+    * **Microsoft Teams:** (Use Microsoft Teams icon from `react-icons` if possible) "Our primary platform for daily communication, real-time discussions, group collaboration, and community announcements."
 
 ### Functional Requirements (if any)
 Content should be clearly organized, ideally within a 3-column responsive card layout on wider screens, stacking gracefully on smaller screens. Each card/sub-section should be visually distinct yet harmonious with the overall page design. Links within this section (e.g., to GitHub) should open in a new tab.
@@ -94,16 +94,16 @@ The Elmentor Circles section transparently explains the official internal struct
 ### Specific Content & Assets Required
 * **Elmentor Circles Diagram (Visual Asset):**
     * Asset Name: `elmentor-circles.png`
-    * Path: `src/assets/images/elmentor-circles.png` (Asset is present in the project).
+    * Path: `src/assets/images/elmentor-circles.png`
     * This diagram visually represents the layered structure of the community (Outer to Inner).
 * **List of Circles with Official Descriptions (Text Content - to be displayed alongside or near the diagram, not as part of the image):**
     * **Audience:** "External followers to our community who engage with us from the outside."
-    * **Guests:** "Temporary participants who might visit the community occasionally."
-    * **Members:** "Permanent members actively involved in the community's activities."
-    * **GAs (Group Advisory):** "Responsible for guiding and supporting the members."
-    * **LGAs (Lead Group Advisory):** "Oversee both the Group Advisory and members."
+    * **Guests:** "Individuals who have shown interest and are exploring the community, but are not yet full members."
+    * **Members:** "Active participants who contribute to and benefit from the community’s activities and resources."
+    * **GAs (General Associates):** "Members who have taken on additional responsibilities and contribute to the community’s growth and operations."
+    * **LGAs (Lead General Associates):** "Senior members who lead initiatives, mentor others, and help shape the community’s direction."
     * **Executives:** "Responsible for all levels, ensuring the overall direction and success of the community."
-* **(Optional but Recommended for UX):** The section might also visually highlight "Key Elements That Determine Which Circle an Individual in" (e.g., Genuine & True Value, Technical & Professional Skills, etc.) as separate text points if space and design allow, to complement the understanding of the circles. (For now, focus on displaying the diagram and the 6 circle descriptions).
+* **(Optional but Recommended for UX):** The section might also visually highlight "Key Elements That Determine Which Circle an Individual is In" (e.g., Genuine & True Value, Technical & Professional Skills, etc.) as separate text points if space and design allow, to complement the understanding of the circles. (For now, focus on displaying the diagram and the 6 circle descriptions).
 
 ### Functional Requirements (if any)
 * The `elmentor-circles.png` diagram should be displayed clearly and prominently.
@@ -129,12 +129,11 @@ This section showcases the diverse activities offered by the Elmentor Program, h
 * **Activity Presentation:** Card-based layout. Each card *may* feature an indicative icon and a concise title. Descriptions can be brief or expandable later.
 * **Activity List (Derived from mind map - use these exact titles or very close variations):**
     * **Technical Skills & Projects:** "DevOps Public Sessions," "Community Projects (Real-world practice)."
-    * **Networking & Resources:** "Build Professional Relations," "Access Mentorship Resource Pool," "Community of Practice (CoP)," "Center of Excellence (CoE)."
-    * **Career Development:** "CV Review," "CV Referral," "Job Relocation Support," "Exclusive Job Offers."
-    * **Growth & Support:** "Immigration Guidance," "Post-Graduate Studies Support," "MVP Guidance," "Startup Assistance."
-    * **Mentorship Services:** "1-on-1 Mentor Sessions," "Ask Me Anything (AMA) Sessions," "Group Mentoring," "Leadership Meetings," "Guest Speaker Sessions (MVPs, Leaders, etc.)," "Mentor Meetups," "Management Skills."
-    * **Mentor-For-All Initiative:** "Find Multiple Mentors," "Structured Mentorship Offers."
     * **Soft Skills Development:** "Communication Skills," "Negotiation Skills," "Understanding Corporate Dynamics," "Self-Management (Time, Motivation)."
+    * **Networking & Resources:** "Professional Networking," "Resource Sharing."
+    * **Career Development:** "CV Reviews," "Job Referrals," "Career Guidance."
+    * **Growth & Support:** "Peer Support Groups," "Personal Growth Workshops."
+    * **Mentorship Services:** "One-on-One Mentorship," "Mentor-For-All Sessions."
 * **Visuals for Cards (Icons - Agent to suggest/use if feasible):** Suggest simple, indicative icons for categories or individual activities (e.g., a document icon for "CV Review", a calendar/people icon for "Meetings/Meetups").
 
 ### Functional Requirements (if any)
@@ -159,8 +158,8 @@ This section is dedicated to introducing Mohamed Radwan, the Founder and an Exec
     * Content will be based on the official detailed bio previously provided by the project owner (highlighting 24+ years of experience, work with 60+ global enterprise companies, specializations in DevOps, Azure, Agile, GitHub, passion for automation, community contributions, and speaking engagements at major tech conferences).
 * **Key Personal & Professional Links:**
     * LinkedIn Profile: Link to `https://www.linkedin.com/in/mohamedahmedradwan/` (Anchor: "View LinkedIn Profile").
-    * Personal GitHub Profile/Portfolio: Link to `https://github.com/MohamedRadwan-DevOps/devops-step-by-step` (Anchor: "Explore GitHub Portfolio").
-    * Radwan's Personal Blog: Link to `https://mohamedradwan-devops.github.io/` (Anchor: "Read Mohamed's Blog").
+    * Personal GitHub: Link to `https://github.com/MohamedRadwan-DevOps/devops-step-by-step` (Anchor: "GitHub Portfolio").
+    * Personal Blog: Link to `https://mohamedradwan-devops.github.io/` (Anchor: "Personal Blog").
     * Radwan's Personal YouTube Channel: Link to `https://www.youtube.com/@MRadwanMSF` (Anchor: "Watch Mohamed on YouTube").
 
 ### Functional Requirements (if any)
@@ -185,7 +184,15 @@ This section articulates the value proposition of the Elmentor Program, convinci
 
 ### Specific Content & Assets Required
 * **Headline (Example):** "Unlock Your Potential with Elmentor."
-* **Key Benefits (list with potential icons):** Global network access, exclusive knowledge sessions, mentorship, project collaboration, career acceleration, support for growth, organized knowledge base (GitHub-based), dynamic communication channels (Teams-based).
+* **Key Benefits (list with potential icons):**
+    * Global network access
+    * Exclusive knowledge sessions
+    * Mentorship
+    * Project collaboration
+    * Career acceleration
+    * Support for growth
+    * Organized knowledge base (GitHub-based)
+    * Dynamic communication channels (Teams-based)
 * **(Optional) Testimonials Snippets.**
 
 ### Functional Requirements (if any)
@@ -204,7 +211,6 @@ Features the official Elmentor Program introductory video for a dynamic understa
 ### Specific Content & Assets Required
 * **Embedded YouTube Video:**
     * Title (English, for context/metadata): "What is the Elmentor Program and How Can It Help You?"
-    * Source: YouTube (Actual video content is in Arabic).
     * URL: `https://www.youtube.com/watch?v=hZ2oxrJg2Cc&t=5s`
 * **(Optional) Brief contextual text.**
 
@@ -225,11 +231,9 @@ The 'News & Updates' section aims to keep visitors informed about the latest hap
 * **Section Headline (Example):** "Latest News & Updates" or "Elmentor Community News."
 * **Structure for News Items:**
     * Focus on displaying key news items for "2025 News."
-    * Subheadings for "2024 News" and "2023 News" will act as placeholders (e.g., with text "Archive - Coming Soon" or "View Past News [Link to be added later]")
     * Each displayed news item should include: Title, Date, Brief Description/Key Takeaways, Link (if applicable), Recorded/Not Recorded status.
 * **Example News Items for "2025 News" (based on provided example data - include these):**
     * Title: "Quality Before Quantity: How to Scale Your Work Strategically", Date: "Wed, 5 Feb 2025", Status: "Recorded".
-    * Title: "Building Wellbeing in Work & Life", Date: "Jan 11, 2025", Presenter: "With Dr.Esam Alkhawaga".
     * Title: "Public Speaking : Small Beginnings , Steady Steps", Date: "Mon, 13 Jan 2025", Presenter: "Rehab Ragab", Status: "Recorded".
 * **Presentation Format:** News items in a clear, scannable format (e.g., list or content-rich cards). Consider simple icons.
 
@@ -270,36 +274,39 @@ Central hub to connect with the Elmentor Program and its broader ecosystem acros
 ### Specific Content & Assets Required
 * **Headline (Example):** "Stay Connected & Engage."
 * **Elmentor Program Official Channels (with clear icons if possible):**
-    * **Elmentor Community Blog:** `https://devopsvisions.github.io/` (Anchor: "Community Blog").
-    * **Elmentor Program GitHub Org:** `https://github.com/ElmentorProgram` (Anchor: "Elmentor GitHub").
-    * **Elmentor Community YouTube (Public Sessions):** `https://www.youtube.com/@MRadwanArabic` (Anchor: "Community YouTube").
-    * **Facebook (Primary Contact):** (Use Mohamed Radwan's primary Facebook Page URL - `[MOHAMED_RADWAN_FACEBOOK_URL_HERE]` - displayed with a generic Facebook icon and text "Connect on Facebook").
-* **Broader DevOps Visions Ecosystem (Clearly distinguished):**
-    * **DevOps Visions Public Community (Open Source):** `https://github.com/DevOpsVisions` (Anchor: "DevOps Visions Open Source").
-    * **DevOps Visions Logo (Optional visual cue):** Asset: `src/assets/images/DevOps-Visions.png` (Present).
+    * Elmentor Community Blog: `https://devopsvisions.github.io/`
+    * Elmentor Program GitHub Org: `https://github.com/ElmentorProgram`
+    * Elmentor Community YouTube: `https://www.youtube.com/@MRadwanArabic`
+    * Facebook (using Mohamed Radwan's primary page URL as the program's contact point): `[MOHAMED_RADWAN_FACEBOOK_URL_HERE]`
+* **Broader DevOps Visions Ecosystem:**
+    * DevOps Visions Public Community GitHub: `https://github.com/DevOpsVisions`
+    * DevOps Visions Logo: `src/assets/images/DevOps-Visions.png`
 
 ### Functional Requirements (if any)
-* External links open in new tabs. Use recognizable brand icons. Responsive.
+* All links must open in a new tab.
+* Icons should be used where possible for each platform.
+* Section must be visually engaging and responsive.
 
 ### Acceptance Criteria
-* All specified links are present, functional, and correctly labeled. Section is easy to navigate and responsive.
+* All official channels and ecosystem links are present, correctly labeled, and functional. Icons are used where possible. Section is visually engaging and responsive.
 
 ---
 
 ## Footer Requirements
 
 ### Detailed Description
-The footer contains essential legal information, copyright, and key links.
+The footer provides essential information, legal links, and attribution, reinforcing the Elmentor and DevOps Visions brands.
 
 ### Specific Content & Assets Required
-* **Copyright:** "© [Current Year] Elmentor Program. All Rights Reserved."
-* **Attribution:** "An initiative by DevOps Visions" (possibly with `DevOps-Visions.png` logo - asset present).
-* **Links:** "Code of Conduct," "Privacy Policy," "Contact Us."
-* **(Optional) Elmentor Program Logo:** `src/assets/images/elmentor-logo.png` (Present).
-* **(Optional) Compact Social Media Icons.**
+* **Copyright:** "© [Current Year] Elmentor Community. All rights reserved."
+* **Attribution:** "Crafted with ❤️ and code by the Elmentor Community, supercharged by GitHub Copilot. Empowering growth through mentorship."
+* **DevOps Visions Logo:** `src/assets/images/DevOps-Visions.png`
+* **Key Links:** Code of Conduct, Privacy, Contact Us (repeat from header for accessibility).
 
 ### Functional Requirements (if any)
-* Links functional (external in new tabs). Responsive.
+* Footer must be present on all pages/sections.
+* All links must be functional and open in a new tab if external.
+* Layout must be compact, visually distinct, and responsive.
 
 ### Acceptance Criteria
-* Copyright accurate. Attribution clear. Links functional. Footer responsive.
+* Footer is present, visually distinct, and contains all required information and links. Responsive across devices.
