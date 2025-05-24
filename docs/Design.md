@@ -93,6 +93,30 @@
     *   The CTA button should remain prominent and easily tappable.
     *   The overall vertical height might adjust on very small screens to prevent excessive scrolling just for the hero.
 *   #### 3.2. About Elmentor Program Section Design Notes
+*   **Overall Goal:** To clearly and concisely communicate the core purpose, values, and operational model of the Elmentor Program, building understanding and interest.
+*   **Layout & Structure:**
+    *   The section should have a clear heading (e.g., "About the Elmentor Program" or "What is Elmentor?").
+    *   Content could be structured in 2 or 3 distinct sub-parts for readability:
+        1.  **Mission & Core Values:** A paragraph or a few bullet points outlining the program's mission and guiding principles.
+        2.  **Program Offerings/Focus:** Briefly summarizing what members gain (e.g., mentorship, knowledge, networking, community).
+        3.  **Operational Model (GitHub & Teams):** A concise explanation of how the community uses GitHub for structured knowledge and Teams for communication, highlighting transparency and collaboration.
+    *   Consider a single-column layout for simplicity on most screens, ensuring focused reading. Alternatively, a two-column layout could be explored if there's a compelling visual element (e.g., a relevant icon or abstract graphic) to pair with the text, but text clarity is paramount.
+*   **Background & Separation:**
+    *   This section should have a background that distinguishes it from the Hero section and the subsequent section.
+    *   Consider using the "Cool Gray: #F5F7FA" as a background, or a very light tint of the "Deep Blue: #1A237E" if the text contrast can be maintained effectively (e.g., with white text).
+    *   A subtle top/bottom border or a slight change in background shade can act as a visual separator.
+*   **Content Styling:**
+    *   **Headings:** Use H2 or H3 typography from `Design.md` for the main section title and any sub-headings.
+    *   **Body Text:** Use the standard body text typography. Ensure comfortable line length and spacing for readability.
+    *   **Key Terms/Platforms (GitHub, Teams):** Consider subtly highlighting these terms (e.g., slightly bolder, or with small, recognizable icons if appropriate and not distracting).
+*   **Visual Elements (Optional but Recommended):**
+    *   To break up text and add visual interest, consider incorporating:
+        *   Simple, relevant icons for Core Values or Program Offerings.
+        *   Small, official logos for GitHub and Microsoft Teams when mentioning these platforms.
+*   **Responsiveness:**
+    *   Text should reflow gracefully on smaller screens.
+    *   If a multi-column layout is used on desktop, it should stack to a single column on mobile.
+    *   Ensure all elements remain legible and well-spaced.
 *   #### 3.3. Elmentor Circles Section Design Notes
 *   #### 3.4. Our Activities Section Design Notes
 *   #### 3.5. About the Founder Section Design Notes
