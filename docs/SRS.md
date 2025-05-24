@@ -57,32 +57,33 @@ This section provides a comprehensive overview of the Elmentor Program, detailin
 #### Specific Content & Assets Required (Mission & Core Values):
 * **Headline:** "Mission & Core Values"
 * **Content Points (bulleted list):**
-    * "Empowering tech professionals through dedicated mentorship and collaborative knowledge sharing."
-    * "Fostering a transparent, inclusive, and supportive community environment."
-    * "Encouraging continuous learning, professional growth, and the pursuit of excellence."
-    * "Providing genuine value and unwavering support for every member's journey."
+    * Empowering tech professionals through dedicated mentorship and collaborative knowledge sharing.
+    * Fostering a transparent, inclusive, and supportive community environment.
+    * Encouraging continuous learning, professional growth, and the pursuit of excellence.
+    * Providing genuine value and unwavering support for every member's journey.
 * **(Optional) Icon:** A relevant icon representing mission/values (e.g., a target, a group of people, a growing plant).
 
 #### Specific Content & Assets Required (What We Offer):
 * **Headline:** "What We Offer"
 * **Content Points (bulleted list):**
-    * "Mentorship from experienced industry leaders and Microsoft MVPs."
-    * "Access to curated knowledge, learning resources, and exclusive content."
-    * "Networking opportunities with a diverse global community of tech professionals."
-    * "Opportunities for hands-on experience through real-world community projects and open-source contributions."
-    * "Comprehensive career development support (CV reviews, referrals, job offers)."
+    * Mentorship from experienced industry leaders and Microsoft MVPs.
+    * Access to curated knowledge, learning resources, and exclusive content.
+    * Networking opportunities with a diverse global community of tech professionals.
+    * Opportunities for hands-on experience through real-world community projects and open-source contributions.
+    * Comprehensive career development support (CV reviews, referrals, job offers).
 
 #### Specific Content & Assets Required (How We Work):
 * **Headline:** "How We Work: Our Platforms"
-* **Content Points (bulleted list with icons):
-    * **GitHub:** (Use GitHub Octocat icon from `react-icons` if possible) "Our central knowledge base for structured documentation, collaborative project development, and transparent information sharing." (Link to Elmentor Program GitHub Org: https://github.com/ElmentorProgram)
-    * **Microsoft Teams:** (Use Microsoft Teams icon from `react-icons` if possible) "Our primary platform for daily communication, real-time discussions, group collaboration, and community announcements."
+* **Content Points (bulleted list with icons):**
+    * **GitHub:** (Use GitHub Octocat icon) Our central knowledge base for structured documentation, collaborative project development, and transparent information sharing. (Link to Elmentor Program GitHub Org: https://github.com/ElmentorProgram)
+    * **Microsoft Teams:** (Use Microsoft Teams icon) Our primary platform for daily communication, real-time discussions, group collaboration, and community announcements.
+* **IMPORTANT CSS NOTE:** Ensure the text "Our central knowledge base..." and "Our primary platform..." under GitHub and Microsoft Teams respectively has a text color that provides sufficient contrast against the card's background (e.g., if card background is white/light gray, text should be dark gray/black like #374151).
 
 ### Functional Requirements (if any)
-Content should be clearly organized, ideally within a 3-column responsive card layout on wider screens, stacking gracefully on smaller screens. Each card/sub-section should be visually distinct yet harmonious with the overall page design. Links within this section (e.g., to GitHub) should open in a new tab.
+Content should be clearly organized, ideally within a 3-column responsive card layout on wider screens, stacking gracefully on smaller screens. Links should open in a new tab.
 
 ### Acceptance Criteria
-The 'About Elmentor Program' section clearly presents information under 'Mission & Core Values,' 'What We Offer,' and 'How We Work.' Content is accurate and uses official terminology. Links are functional. The card-based or structured layout is responsive and visually appealing.
+The section clearly presents information under the three distinct sub-headings/cards. Content is accurate. Text under 'How We Work' for GitHub and Teams descriptions is clearly visible with good contrast. Links are functional. Layout is responsive.
 
 ---
 
@@ -126,14 +127,14 @@ The Elmentor Circles section transparently explains the official internal struct
 This section showcases the diverse activities offered by the Elmentor Program, highlighting benefits for skill enhancement, career growth, and networking. Activities will be presented in a visually appealing and responsive card-based format, ideally with indicative icons for each, and the design should adhere to modern UI/UX best practices.
 
 ### Specific Content & Assets Required
-* **Activity Presentation:** Card-based layout. Each card *may* feature an indicative icon and a concise title. Descriptions can be brief or expandable later.
+* **Activity Presentation:** Card-based layout. Each card may feature an indicative icon and a concise title. Descriptions can be brief or expandable later.
 * **Activity List (Derived from mind map - use these exact titles or very close variations):**
-    * **Technical Skills & Projects:** "DevOps Public Sessions," "Community Projects (Real-world practice)."
-    * **Soft Skills Development:** "Communication Skills," "Negotiation Skills," "Understanding Corporate Dynamics," "Self-Management (Time, Motivation)."
-    * **Networking & Resources:** "Professional Networking," "Resource Sharing."
-    * **Career Development:** "CV Reviews," "Job Referrals," "Career Guidance."
-    * **Growth & Support:** "Peer Support Groups," "Personal Growth Workshops."
-    * **Mentorship Services:** "One-on-One Mentorship," "Mentor-For-All Sessions."
+    * **Technical Skills & Projects:** "DevOps Public Sessions", "Community Projects (Real-world practice)"
+    * **Soft Skills Development:** "Communication Skills", "Negotiation Skills", "Understanding Corporate Dynamics", "Self-Management (Time, Motivation)"
+    * **Networking & Resources:** "Professional Networking", "Resource Sharing"
+    * **Career Development:** "CV Reviews", "Job Referrals", "Career Guidance"
+    * **Growth & Support:** "Peer Support Groups", "Personal Growth Workshops"
+    * **Mentorship Services:** "One-on-One Mentorship", "Mentor-For-All Sessions"
 * **Visuals for Cards (Icons - Agent to suggest/use if feasible):** Suggest simple, indicative icons for categories or individual activities (e.g., a document icon for "CV Review", a calendar/people icon for "Meetings/Meetups").
 
 ### Functional Requirements (if any)
@@ -277,7 +278,7 @@ Central hub to connect with the Elmentor Program and its broader ecosystem acros
     * Elmentor Community Blog: `https://devopsvisions.github.io/`
     * Elmentor Program GitHub Org: `https://github.com/ElmentorProgram`
     * Elmentor Community YouTube: `https://www.youtube.com/@MRadwanArabic`
-    * Facebook (using Mohamed Radwan's primary page URL as the program's contact point): `[MOHAMED_RADWAN_FACEBOOK_URL_HERE]`
+    * Facebook (using Mohamed Radwan's primary Facebook Page URL as the program's contact point): `[MOHAMED_RADWAN_FACEBOOK_URL_HERE]`
 * **Broader DevOps Visions Ecosystem:**
     * DevOps Visions Public Community GitHub: `https://github.com/DevOpsVisions`
     * DevOps Visions Logo: `src/assets/images/DevOps-Visions.png`
