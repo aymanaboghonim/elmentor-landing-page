@@ -52,23 +52,37 @@ The Hero Section is the first and most prominent part of the landing page that v
 ## About Elmentor Program Requirements
 
 ### Detailed Description
-This section provides detailed information about the Elmentor Program's mission, core values, and what it offers to its members. It should clearly communicate the program's purpose, structured knowledge sharing (via GitHub), and communication model (via Teams), as well as the benefits of joining the community.
+This section provides a comprehensive overview of the Elmentor Program, detailing its foundational mission and values, the key offerings and benefits for its members, and the collaborative tools and platforms that underpin its operations. The information will be presented in a structured, card-like format for clarity and easy digestion.
 
-### Specific Content & Assets Required
-* **Mission Statement:** Clear articulation of the program's mission and vision.
-* **Core Values:** List of core values that guide the community.
-* **Program Offerings:** Overview of what members gain (mentorship, knowledge sharing, networking, etc.).
-* **Knowledge Sharing Model:** Reference to the use of GitHub for structured knowledge sharing.
-* **Communication Model:** Reference to the use of Microsoft Teams for community communication and collaboration.
+#### Specific Content & Assets Required (Mission & Core Values):
+* **Headline:** "Mission & Core Values"
+* **Content Points (bulleted list):**
+    * Empowering tech professionals through dedicated mentorship and collaborative knowledge sharing.
+    * Fostering a transparent, inclusive, and supportive community environment.
+    * Encouraging continuous learning, professional growth, and the pursuit of excellence.
+    * Providing genuine value and unwavering support for every member's journey.
+* **(Optional) Icon:** A relevant icon representing mission/values (e.g., a target, a group of people, a growing plant).
+
+#### Specific Content & Assets Required (What We Offer):
+* **Headline:** "What We Offer"
+* **Content Points (bulleted list):**
+    * Mentorship from experienced industry leaders and Microsoft MVPs.
+    * Access to curated knowledge, learning resources, and exclusive content.
+    * Networking opportunities with a diverse global community of tech professionals.
+    * Opportunities for hands-on experience through real-world community projects and open-source contributions.
+    * Comprehensive career development support (CV reviews, referrals, job offers).
+
+#### Specific Content & Assets Required (How We Work):
+* **Headline:** "How We Work: Our Platforms"
+* **Content Points (bulleted list with icons):**
+    * **GitHub:** (Use GitHub Octocat icon from `react-icons` if possible) Our central knowledge base for structured documentation, collaborative project development, and transparent information sharing. (Link to Elmentor Program GitHub Org: https://github.com/ElmentorProgram)
+    * **Microsoft Teams:** (Use Microsoft Teams icon from `react-icons` if possible) Our primary platform for daily communication, real-time discussions, group collaboration, and community announcements.
 
 ### Functional Requirements (if any)
-* Content should be clearly organized and easy to scan.
-* Section must be responsive and visually consistent with the rest of the landing page.
+Content should be clearly organized, ideally within a 3-column responsive card layout on wider screens, stacking gracefully on smaller screens. Each card/sub-section should be visually distinct yet harmonious with the overall page design. Links within this section (e.g., to GitHub) should open in a new tab.
 
 ### Acceptance Criteria
-* Mission, values, and offerings are clearly presented.
-* References to GitHub and Teams models are included.
-* Section is visually appealing and responsive.
+The 'About Elmentor Program' section clearly presents information under 'Mission & Core Values,' 'What We Offer,' and 'How We Work.' Content is accurate and uses official terminology. Links are functional. The card-based or structured layout is responsive and visually appealing.
 
 ---
 
@@ -228,7 +242,7 @@ The 'News & Updates' section aims to keep visitors informed about the latest hap
 
 ---
 
-## Contact Us Form Requirements
+## "Contact Us" Section / Form Requirements
 
 ### Detailed Description
 Provides a direct way for visitors to contact the Elmentor Program. Frontend-only form for MVP.
