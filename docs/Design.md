@@ -40,12 +40,29 @@
     - Use font smoothing and antialiasing for crisp rendering on all devices.
 
 ## 2. Overall Page Layout & Structure
-*   ### 2.1. Wireframes / Lo-fi Mockups
-    *   (Placeholder for links to wireframes or embedded simple sketches later - for now, describe general layout: e.g., single-page scroll, clear visual separation of sections)
-*   ### 2.2. Navigation Design
-    *   (Header navigation appearance - desktop and mobile (hamburger menu), smooth scroll behavior, active state indication. Footer navigation design)
-*   ### 2.3. Footer Design
-    *   (Layout of elements in the footer: copyright, links, logos)
+
+### 2.1. Wireframes / Lo-fi Mockups
+- The Elmentor Landing Page will be a single-page application (SPA) with a vertical scrolling structure.
+- Each major section (Hero, About, Circles, Activities, Founder, News & Updates, Benefits, Video, Contact, Community Presence, Footer) will be clearly delineated.
+- Subtle background color variations (using the cool gray palette) or full-width visual separators will be used to distinguish sections.
+- The layout will be clean and uncluttered, with ample white space to enhance readability and focus on content.
+- All content will be center-aligned or use a consistent max-width container for large screens, with responsive adjustments for smaller devices.
+
+### 2.2. Navigation Design
+- **Header Navigation (Desktop):**
+    - Navigation bar is present at the top of the page (sticky or reappearing on scroll up for usability).
+    - Navigation links: Home, About, Activities, Circles, Founder, Blog, Contact Us. All links are clearly legible and spaced for easy access.
+    - The active/current section link is visually distinguished (e.g., accent color underline, background highlight, or color change using #FF9800).
+    - Clicking a navigation link smoothly scrolls to the corresponding section.
+- **Header Navigation (Mobile/Tablet):**
+    - A "hamburger" menu icon is used for smaller screens.
+    - The menu expands as a full-screen overlay or a slide-out panel from the side, with navigation links stacked vertically and easily tappable.
+    - The language switcher remains accessible within the mobile menu.
+- **Language Switcher:**
+    - Present in the header at all breakpoints.
+    - Simple design: two toggle buttons ("EN"/"ع") or a dropdown. Clearly indicates the current language.
+- **Footer Navigation:**
+    - Key links (Contact Us, Code of Conduct, Privacy) are repeated in the footer for easy access, styled to match the overall design but with a more compact layout.
 
 ## 3. Section-Specific Design Considerations
 *   #### 3.1. Hero Section Design Notes
