@@ -1,7 +1,7 @@
 {
-  "programName": "برنامج المنتور",
-  "header": {
+  "programName": "برنامج المنتور",  "header": {
     "logoAlt": "شعار برنامج المنتور",
+    "mainNavigationLabel": "التنقل الرئيسي",
     "nav": {
       "home": "الرئيسية",
       "about": "عنا",

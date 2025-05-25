@@ -1,7 +1,7 @@
 {
-  "programName": "Elmentor Program",
-  "header": {
+  "programName": "Elmentor Program",  "header": {
     "logoAlt": "Elmentor Program Logo",
+    "mainNavigationLabel": "Main Navigation",
     "nav": {
       "home": "Home",
       "about": "About",
