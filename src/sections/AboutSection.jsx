@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaMicrosoft, FaHandsHelping, FaLightbulb, FaUsers } from "react-icons/fa";
+import { FaGithub, FaMicrosoft, FaLightbulb, FaHandsHelping, FaCogs } from "react-icons/fa";
 import "../styles/AboutSection.css";
 
 const AboutSection = () => {
@@ -8,35 +8,34 @@ const AboutSection = () => {
       <div className="about-container">
         <h2 className="about-title">About the Elmentor Program</h2>
         <div className="about-content">
+          {/* Card 1: Mission & Core Values */}
           <div className="about-block">
-            <h3 className="about-subtitle"><FaLightbulb className="about-icon" /> Mission Statement</h3>
-            <p className="about-body">
-              The Elmentor Program empowers tech professionals worldwide through mentorship, knowledge sharing, and a collaborative, transparent, and inclusive community. Our mission is to foster continuous learning, professional growth, and genuine value for all members.
-            </p>
-          </div>
-          <div className="about-block">
-            <h3 className="about-subtitle"><FaHandsHelping className="about-icon" /> Core Values</h3>
+            <h3 className="about-subtitle"><FaLightbulb className="about-icon" /> Mission & Core Values</h3>
             <ul className="about-list">
-              <li>Empowerment through mentorship and knowledge sharing</li>
-              <li>Collaboration, transparency, and inclusivity</li>
-              <li>Continuous learning and professional growth</li>
-              <li>Genuine value and support for every member</li>
+              <li>Empowering tech professionals through dedicated mentorship and collaborative knowledge sharing.</li>
+              <li>Fostering a transparent, inclusive, and supportive community environment.</li>
+              <li>Encouraging continuous learning, professional growth, and the pursuit of excellence.</li>
+              <li>Providing genuine value and unwavering support for every member's journey.</li>
             </ul>
           </div>
+          {/* Card 2: What We Offer */}
           <div className="about-block">
-            <h3 className="about-subtitle"><FaUsers className="about-icon" /> What We Offer</h3>
+            <h3 className="about-subtitle"><FaHandsHelping className="about-icon" /> What We Offer</h3>
             <ul className="about-list">
-              <li>Mentorship from experienced industry leaders</li>
-              <li>Access to curated knowledge and resources</li>
-              <li>Networking and community support</li>
-              <li>Opportunities for real-world projects and growth</li>
+              <li>Mentorship from experienced industry leaders and Microsoft MVPs.</li>
+              <li>Access to curated knowledge, learning resources, and exclusive content.</li>
+              <li>Networking opportunities with a diverse global community of tech professionals.</li>
+              <li>Opportunities for hands-on experience through real-world community projects and open-source contributions.</li>
+              <li>Comprehensive career development support (CV reviews, referrals, job offers).</li>
             </ul>
-            <div className="about-models">
-              <p className="about-body">
-                <span className="about-key"><FaGithub className="about-icon" /> GitHub</span> is used for structured knowledge sharing and transparent collaboration.<br />
-                <span className="about-key"><FaMicrosoft className="about-icon" /> Microsoft Teams</span> powers our real-time communication and community engagement.
-              </p>
-            </div>
+          </div>
+          {/* Card 3: How We Work: Our Platforms */}
+          <div className="about-block">
+            <h3 className="about-subtitle"><FaCogs className="about-icon" /> How We Work: Our Platforms</h3>
+            <ul className="about-list">
+              <li><span className="about-key"><FaGithub className="about-icon" /> <a href="https://github.com/ElmentorProgram" target="_blank" rel="noopener noreferrer">GitHub</a></span>: Our central knowledge base for structured documentation, collaborative project development, and transparent information sharing.</li>
+              <li><span className="about-key"><FaMicrosoft className="about-icon" /> Microsoft Teams</span>: Our primary platform for daily communication, real-time discussions, group collaboration, and community announcements.</li>
+            </ul>
           </div>
         </div>
       </div>
