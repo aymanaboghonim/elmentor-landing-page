@@ -8,14 +8,16 @@ import ActivitiesSection from './sections/ActivitiesSection.jsx';
 import FounderSection from './sections/FounderSection.jsx';
 import BenefitsSection from './sections/BenefitsSection.jsx';
 import IntroductoryVideoSection from './sections/IntroductoryVideoSection.jsx';
-import NewsSection from './sections/NewsSection.jsx'; // Import NewsSection
+import NewsSection from './sections/NewsSection.jsx';
+import ContactSection from './sections/ContactSection.jsx'; // Import ContactSection
 import './styles/AboutSection.css';
 import './styles/CirclesSection.css';
 import './styles/ActivitiesSection.css';
 import './styles/FounderSection.css';
 import './styles/BenefitsSection.css';
 import './styles/IntroductoryVideoSection.css';
-import './styles/NewsSection.css'; // Import NewsSection CSS
+import './styles/NewsSection.css';
+import './styles/ContactSection.css'; // Import ContactSection CSS
 import './styles/App.css';
 
 function App() {
@@ -30,7 +32,8 @@ function App() {
         <FounderSection />
         <BenefitsSection />
         <IntroductoryVideoSection />
-        <NewsSection /> {/* Add NewsSection here */}
+        <NewsSection />
+        <ContactSection /> {/* Add ContactSection here */}
       </div>
     </>
   )

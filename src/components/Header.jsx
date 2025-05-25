@@ -3,15 +3,14 @@ import '../styles/Header.css';
 import logo from '../assets/images/elmentor-logo.png';
 
 const NAV_LINKS = [
-  { label: 'Home', href: '#hero' }, // Changed from #home to #hero
+  { label: 'Home', href: '#hero' },
   { label: 'About', href: '#about' },
-  { label: 'Benefits', href: '#benefits' }, // Added Benefits link
-  { label: 'Activities', href: '#activities' },
   { label: 'Circles', href: '#circles' },
+  { label: 'Activities', href: '#activities' },
   { label: 'Founder', href: '#founder' },
-  { label: 'Blog', href: '#blog' },
-  { label: 'Contact Us', href: '#contact' },
-  { label: 'News', href: '#news' }, // Added News link
+  { label: 'Benefits', href: '#benefits' },
+  { label: 'News', href: '#news' },
+  { label: 'Contact', href: '#contact' }, // Added Contact link
 ];
 
 const MOBILE_BREAKPOINT = 900;
