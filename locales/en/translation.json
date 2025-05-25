@@ -1,0 +1,33 @@
+{
+  "programName": "Elmentor Program",
+  "circles": {
+    "title": "Understanding Knowledge Access Through Elmentor Circles",
+    "intro": "To structure access, engagement, and leadership within the community, we use a model called Elmentor Circles. These circles define different levels of participation and responsibility, arranged in clear layers:",
+    "diagramAlt": "Elmentor Community Circles Diagram",
+    "conclusion": "This model helps us structure engagement, learning, and decision-making in a clear and scalable way.",
+    "audience": {
+      "name": "Audience",
+      "description": "External audience who engage with us from the outside"
+    },
+    "guests": {
+      "name": "Guests",
+      "description": "Occasional participants with limited access"
+    },
+    "members": {
+      "name": "Members",
+      "description": "Active, permanent participants in the community"
+    },
+    "gas": {
+      "name": "Group Advisory (GAs)",
+      "description": "Leaders who support and guide members"
+    },
+    "lgas": {
+      "name": "Lead Group Advisory (LGAs)",
+      "description": "Guide both the Group Advisory and members"
+    },
+    "executives": {
+      "name": "Executives",
+      "description": "Responsible for all levels, ensuring the overall direction and success of the community."
+    }
+  }
+}
