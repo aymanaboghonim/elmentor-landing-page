@@ -3,13 +3,15 @@ import '../styles/Header.css';
 import logo from '../assets/images/elmentor-logo.png';
 
 const NAV_LINKS = [
-  { label: 'Home', href: '#home' },
+  { label: 'Home', href: '#hero' }, // Changed from #home to #hero
   { label: 'About', href: '#about' },
+  { label: 'Benefits', href: '#benefits' }, // Added Benefits link
   { label: 'Activities', href: '#activities' },
   { label: 'Circles', href: '#circles' },
   { label: 'Founder', href: '#founder' },
   { label: 'Blog', href: '#blog' },
   { label: 'Contact Us', href: '#contact' },
+  { label: 'News', href: '#news' }, // Added News link
 ];
 
 const MOBILE_BREAKPOINT = 900;
@@ -26,7 +28,9 @@ export default function Header() {
     const handleResize = () => {
       const mobile = window.innerWidth <= MOBILE_BREAKPOINT;
       setIsMobile(mobile);
-      if (!mobile) setMenuOpen(false); // Close mobile menu if switching to desktop
+      if (!mobile && menuOpen) { // If resizing to desktop and menu is open
+        setMenuOpen(false); // Close mobile menu
+      }
     };
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('resize', handleResize);
@@ -34,7 +38,26 @@ export default function Header() {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [menuOpen]); // Add menuOpen to dependency array for the resize effect
+
+  // Effect to handle body scroll and Escape key
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.classList.add('mobile-menu-open');
+      const handleKeyDown = (event) => {
+        if (event.key === 'Escape') {
+          closeMenu();
+        }
+      };
+      document.addEventListener('keydown', handleKeyDown);
+      return () => {
+        document.body.classList.remove('mobile-menu-open');
+        document.removeEventListener('keydown', handleKeyDown);
+      };
+    } else {
+      document.body.classList.remove('mobile-menu-open');
+    }
+  }, [menuOpen]);
 
   const handleMenuToggle = () => setMenuOpen((open) => !open);
   const closeMenu = () => setMenuOpen(false);
