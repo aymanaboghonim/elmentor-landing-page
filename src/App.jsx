@@ -3,16 +3,20 @@ import Header from './components/Header.jsx';
 import './styles/Header.css';
 import HeroSection from './sections/HeroSection.jsx';
 import AboutSection from './sections/AboutSection.jsx';
+import CirclesSection from './sections/CirclesSection.jsx';
 import './styles/AboutSection.css';
+import './styles/CirclesSection.css';
+import './styles/App.css';
 
 function App() {
   return (
     <>
       <Header />
-      <HeroSection />
-      <main style={{ marginTop: 80 }}>
+      <div className="main-content">
+        <HeroSection />
         <AboutSection />
-      </main>
+        <CirclesSection />
+      </div>
     </>
   )
 }

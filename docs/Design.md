@@ -118,6 +118,15 @@
     *   If a multi-column layout is used on desktop, it should stack to a single column on mobile.
     *   Ensure all elements remain legible and well-spaced.
 *   #### 3.3. Elmentor Circles Section Design Notes
+*   **Overall Goal:** To clearly and visually explain the Elmentor community's structured engagement model.
+*   **Layout & Structure:**
+    *   Section Heading (e.g., "Our Community Structure: The Elmentor Circles").
+    *   Prominent display of the **Elmentor Circles Diagram** (`src/assets/images/elmentor-circles.png`).
+    *   Official descriptions for each of the six circles (Audience, Guests, Members, GAs, LGAs, Executives - as detailed in SRS.md) presented as clear HTML text.
+    *   **Design for Text & Diagram Integration:** Consider a two-column layout on wider screens (diagram in one, text in the other) stacking to a single column (diagram above text) on smaller screens. Alternatively, a centered diagram with text flowing around or below it. Agent to propose the most effective and responsive layout.
+*   **Background & Separation:** Use "Cool Gray: #F5F7FA" or a similar light, professional background to distinguish this section.
+*   **Content Styling:** Appropriate H2/H3 for heading. Circle names bolded or distinct. Descriptions in standard body text.
+*   **Responsiveness:** Diagram scales, text reflows, layout adapts.
 *   #### 3.4. Our Activities Section Design Notes
 *   #### 3.5. About the Founder Section Design Notes
 *   #### 3.6. News & Updates Section Design Notes
