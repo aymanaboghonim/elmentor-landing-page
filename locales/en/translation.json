@@ -1,5 +1,22 @@
 {
   "programName": "Elmentor Program",
+  "header": {
+    "logoAlt": "Elmentor Program Logo",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "circles": "Circles",
+      "activities": "Activities",
+      "founder": "Founder",
+      "benefits": "Benefits",
+      "news": "News",
+      "contact": "Contact"
+    },
+    "mobileMenuButton": "Open navigation menu",
+    "languageSwitcherLabel": "Language Switcher",
+    "langEn": "EN",
+    "langAr": "ع"
+  },
   "circles": {
     "title": "Understanding Knowledge Access Through Elmentor Circles",
     "intro": "To structure access, engagement, and leadership within the community, we use a model called Elmentor Circles. These circles define different levels of participation and responsibility, arranged in clear layers:",
