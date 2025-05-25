@@ -1,0 +1,105 @@
+/* ActivitiesSection.css */
+.activities-section {
+  padding: 4rem 0;
+  background-color: #FFFFFF; /* White background */
+}
+
+.activities-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.activities-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1A237E; /* Deep Blue */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.activities-subtitle {
+  font-size: 1.1rem;
+  color: #374151; /* Slate Gray */
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.activity-category-card {
+  background-color: #F5F7FA; /* Cool Gray for cards */
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.activity-category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.activity-category-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1A237E; /* Deep Blue */
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #FF9800; /* Vibrant Orange accent */
+  padding-bottom: 0.5rem;
+}
+
+.activity-items-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #374151; /* Slate Gray */
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.activity-item span {
+ flex: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .activities-grid {
+    grid-template-columns: 1fr; /* Stack cards on smaller tablets/mobile */
+  }
+  .activities-title {
+    font-size: 1.8rem;
+  }
+  .activities-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .activity-category-title {
+    font-size: 1.2rem;
+  }
+  .activity-item {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .activities-container {
+    padding: 0 16px;
+  }
+  .activity-category-card {
+    padding: 1rem;
+  }
+}

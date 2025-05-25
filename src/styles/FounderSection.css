@@ -1,0 +1,145 @@
+.founder-section {
+  padding: 4rem 0;
+  background-color: #FFFFFF; /* White background */
+  color: #374151; /* Slate Gray text */
+}
+
+.founder-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.founder-section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1A237E; /* Deep Blue */
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.founder-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.founder-image-container {
+  flex-shrink: 0;
+  width: 200px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.founder-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.founder-details-container {
+  text-align: center;
+}
+
+.founder-name {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1A237E; /* Deep Blue */
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.founder-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #FF9800; /* Vibrant Orange */
+  margin-bottom: 1rem;
+}
+
+.founder-bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  max-width: 700px; /* Limit bio width for readability */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.founder-social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.founder-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #F5F7FA; /* Cool Gray */
+  color: #1A237E; /* Deep Blue */
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.founder-social-link:hover {
+  background-color: #1A237E; /* Deep Blue */
+  color: #FFFFFF; /* White */
+}
+
+.founder-social-link svg {
+  font-size: 1.2em;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .founder-content-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+
+  .founder-image-container {
+    width: 250px; /* Larger image on desktop */
+    height: 250px;
+  }
+
+  .founder-details-container {
+    text-align: left;
+    flex: 1;
+  }
+
+  .founder-bio {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .founder-social-links {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .founder-section-title {
+    font-size: 1.8rem;
+  }
+  .founder-name {
+    font-size: 1.5rem;
+  }
+  .founder-title {
+    font-size: 1rem;
+  }
+  .founder-bio {
+    font-size: 0.95rem;
+  }
+  .founder-social-link {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
