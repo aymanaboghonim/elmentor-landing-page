@@ -1,0 +1,129 @@
+.community-presence-section {
+  padding: 4rem 0;
+  background-color: #FFFFFF; /* White background */
+  border-top: 1px solid #e0e4ea;
+}
+
+.community-presence-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.community-presence-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1A237E; /* Deep Blue */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.community-presence-subtitle {
+  font-size: 1.1rem;
+  color: #374151; /* Slate Gray */
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 3rem auto;
+  line-height: 1.6;
+}
+
+.channels-category {
+  margin-bottom: 3rem;
+}
+
+.channels-category:last-child {
+  margin-bottom: 0;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FF9800; /* Vibrant Orange */
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1A237E; /* Deep Blue */
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.platform-link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F7FA; /* Cool Gray for cards */
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #1A237E; /* Deep Blue text */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s;
+}
+
+.platform-link-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background-color: #e8ebef;
+}
+
+.platform-icon {
+  font-size: 2.5rem; /* Size of the icon */
+  margin-bottom: 1rem;
+  color: #1A237E; /* Deep Blue, can be overridden if needed */
+}
+
+.platform-link-card:hover .platform-icon {
+  color: #FF9800; /* Vibrant Orange on hover */
+}
+
+.platform-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.ecosystem-card {
+  /* Specific styles for ecosystem cards if needed */
+}
+
+.ecosystem-logo {
+  width: 60px; /* Adjust size as needed */
+  height: auto;
+  margin-bottom: 0.75rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .community-presence-title {
+    font-size: 1.8rem;
+  }
+  .community-presence-subtitle {
+    font-size: 1rem;
+  }
+  .category-title {
+    font-size: 1.3rem;
+  }
+  .platform-link-card {
+    padding: 1.5rem 1rem;
+  }
+  .platform-icon {
+    font-size: 2rem;
+  }
+  .platform-name {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .community-presence-container {
+    padding: 0 16px;
+  }
+  .links-grid {
+    grid-template-columns: 1fr; /* Stack cards on mobile */
+  }
+}
