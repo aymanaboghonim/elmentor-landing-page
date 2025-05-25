@@ -10,7 +10,8 @@ import BenefitsSection from './sections/BenefitsSection.jsx';
 import IntroductoryVideoSection from './sections/IntroductoryVideoSection.jsx';
 import NewsSection from './sections/NewsSection.jsx';
 import ContactSection from './sections/ContactSection.jsx';
-import CommunityPresenceSection from './sections/CommunityPresenceSection.jsx'; // Import CommunityPresenceSection
+import CommunityPresenceSection from './sections/CommunityPresenceSection.jsx';
+import Footer from './components/Footer.jsx'; // Import Footer
 import './styles/AboutSection.css';
 import './styles/CirclesSection.css';
 import './styles/ActivitiesSection.css';
@@ -20,6 +21,7 @@ import './styles/IntroductoryVideoSection.css';
 import './styles/NewsSection.css';
 import './styles/ContactSection.css';
 import './styles/CommunityPresenceSection.css'; // Import CommunityPresenceSection CSS
+import './styles/Footer.css'; // Import Footer CSS
 import './styles/App.css';
 
 function App() {
@@ -36,8 +38,9 @@ function App() {
         <IntroductoryVideoSection />
         <NewsSection />
         <ContactSection />
-        <CommunityPresenceSection /> {/* Add CommunityPresenceSection here */}
+        <CommunityPresenceSection />
       </div>
+      <Footer /> {/* Add Footer here */}
     </>
   )
 }
