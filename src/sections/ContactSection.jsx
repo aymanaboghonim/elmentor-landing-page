@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import Button from '../components/Button.jsx';
 import '../styles/ContactSection.css';
-import { FaPaperPlane } from 'react-icons/fa';
+import { FaPaperPlane, FaCheckCircle, FaExclamationTriangle } from 'react-icons/fa';
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -92,18 +93,29 @@ const ContactSection = () => {
               rows="5"
               required
               aria-required="true"
-            ></textarea>
-          </div>
-          <button type="submit" className="contact-submit-button">
-            Send Message <FaPaperPlane style={{ marginLeft: '8px' }} />
-          </button>
+            ></textarea>          </div>
+          <Button 
+            type="submit" 
+            variant="primary"
+            size="lg"
+            icon={<FaPaperPlane />}
+            iconPosition="right"
+            ariaLabel="Send your message to DevOps Visions team"
+            fullWidth
+          >
+            Send Message
+          </Button>
           {isSubmitted && (
-            <p className="form-success-message">
+            <div className="form-success-message">
+              <FaCheckCircle className="message-icon" aria-hidden="true" />
               Thank you for your message! We'll get back to you soon.
-            </p>
+            </div>
           )}
           {submitError && (
-            <p className="form-error-message">{submitError}</p>
+            <div className="form-error-message">
+              <FaExclamationTriangle className="message-icon" aria-hidden="true" />
+              {submitError}
+            </div>
           )}
         </form>
       </div>

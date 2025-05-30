@@ -42,7 +42,7 @@
   font-size: var(--font-size-sm);
   line-height: var(--line-height-relaxed);
   max-width: 450px;
-  color: rgba(255, 255, 255, 0.95);
+  color: #FFFFFF; /* Full white for better contrast */
   margin: var(--spacing-md) 0 0 0; /* Microsoft-style spacing */
 }
 
@@ -78,7 +78,7 @@
 }
 
 .footer-link {
-  color: rgba(255, 255, 255, 0.9); /* Maintained contrast improvements */
+  color: #FFFFFF; /* Full white for better contrast */
   text-decoration: none;
   font-size: var(--font-size-sm);
   transition: var(--transition-base);
@@ -116,7 +116,7 @@
 
 .footer-cta-text {
   font-size: var(--font-size-sm);
-  color: var(--color-white); /* Microsoft uses full white for text on colored backgrounds */
+  color: #FFFFFF; /* Ensuring we use the literal white color */
   margin-bottom: var(--spacing-lg);
   line-height: var(--line-height-relaxed);
 }
@@ -124,16 +124,16 @@
 .footer-copyright {
   text-align: left; /* Microsoft aligns copyright to left */
   font-size: var(--font-size-xs); /* Microsoft typically uses smaller text for copyright */
-  color: rgba(255, 255, 255, 0.9); /* Maintained improved contrast */
+  color: #FFFFFF; /* Full white for better contrast */
   padding-top: var(--spacing-lg);
   margin-top: var(--spacing-lg);
-  border-top: 1px solid rgba(255, 255, 255, 0.1); /* More subtle border like Microsoft */
+  border-top: 1px solid rgba(255, 255, 255, 0.3); /* Increased contrast for border */
 }
 
 .footer-built-with {
   margin-top: var(--spacing-sm);
   font-size: var(--font-size-xs);
-  color: rgba(255, 255, 255, 0.85); /* Maintained improved contrast */
+  color: #FFFFFF; /* Full white for better contrast */
 }
 
 /* Responsive adjustments */

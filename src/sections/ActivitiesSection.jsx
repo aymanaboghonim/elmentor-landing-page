@@ -1,6 +1,7 @@
 import React from 'react';
+import Button from '../components/Button.jsx';
 import '../styles/ActivitiesSection.css';
-import { FaUsers, FaProjectDiagram, FaComments, FaHandshake, FaChalkboardTeacher, FaBookOpen, FaSearch, FaBriefcase, FaChartLine, FaUserFriends, FaLightbulb } from 'react-icons/fa';
+import { FaUsers, FaProjectDiagram, FaComments, FaHandshake, FaChalkboardTeacher, FaBookOpen, FaSearch, FaBriefcase, FaChartLine, FaUserFriends, FaLightbulb, FaArrowRight } from 'react-icons/fa';
 
 const ACTIVITIES_DATA = [
   {
@@ -62,16 +63,42 @@ const ActivitiesSection = () => {
           {ACTIVITIES_DATA.map((activityCategory) => (
             <div key={activityCategory.category} className="activity-category-card">
               <h3 className="activity-category-title">{activityCategory.category}</h3>
-              <ul className="activity-items-list">
-                {activityCategory.items.map((item) => (
+              <ul className="activity-items-list">                {activityCategory.items.map((item, index) => (
                   <li key={item.name} className="activity-item">
-                    <span className="activity-icon" style={{ marginRight: '8px', fontSize: '1.2em' }}>{item.icon}</span>
-                    <span>{item.name}</span>
+                    <span className="activity-icon" aria-hidden="true">{item.icon}</span>
+                    <span className="activity-text">{item.name}</span>
                   </li>
                 ))}
               </ul>
             </div>
           ))}
+        </div>
+        
+        {/* Call to Action */}
+        <div className="activities-cta">
+          <p className="activities-cta-text">
+            Ready to join our community and start your professional growth journey?
+          </p>
+          <div className="activities-cta-buttons">
+            <Button 
+              variant="primary" 
+              size="lg"
+              onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+              ariaLabel="Join DevOps Visions community"
+              icon={<FaArrowRight />}
+              iconPosition="right"
+            >
+              Join Now
+            </Button>
+            <Button 
+              variant="secondary" 
+              size="lg"
+              onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
+              ariaLabel="Learn more about our programs"
+            >
+              Learn More
+            </Button>
+          </div>
         </div>
       </div>
     </section>
