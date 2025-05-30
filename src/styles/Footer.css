@@ -1,121 +1,200 @@
 .elmentor-footer {
-  background-color: #1A237E; /* Deep Blue */
-  color: #F5F7FA; /* Light Gray/White text */
-  padding: 3rem 0 1.5rem 0;
-  border-top: 4px solid #FF9800; /* Vibrant Orange accent top border */
+  background-color: var(--color-gray-900); /* Microsoft uses very dark gray/black for footer */
+  color: var(--color-white);
+  padding: var(--spacing-4xl) 0 var(--spacing-xl) 0;
+  border-top: 1px solid var(--color-gray-700); /* Microsoft uses subtle borders */
 }
 
 .footer-container {
-  max-width: 1140px;
+  max-width: var(--container-max-width);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 var(--spacing-xl);
 }
 
 .footer-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-2xl);
+  margin-bottom: var(--spacing-3xl); /* Microsoft uses more vertical spacing */
+  text-align: left; /* Microsoft typically aligns footer content to left */
 }
 
 .footer-logo-attribution {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1rem;
+  align-items: flex-start; /* Microsoft aligns to left */
+  gap: var(--spacing-md);
 }
 
 .footer-devops-logo {
-  height: 50px; /* Adjust as needed */
+  height: 40px; /* Microsoft typically uses smaller logos */
   width: auto;
-  opacity: 0.9;
+  filter: brightness(1.2); /* Improved visibility */
+  transition: var(--transition-base);
+}
+
+.footer-devops-logo:hover {
+  opacity: 1;
+  transform: scale(1.02); /* More subtle hover effect like Microsoft */
 }
 
 .footer-attribution {
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
   max-width: 450px;
-  color: #CED4DA; /* Lighter gray for attribution */
-  margin: 0;
+  color: rgba(255, 255, 255, 0.95);
+  margin: var(--spacing-md) 0 0 0; /* Microsoft-style spacing */
 }
 
-.footer-links {
+.footer-navigation {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xl);
+}
+
+.footer-links,
+.footer-legal {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
+  align-items: flex-start; /* Microsoft aligns to left */
+  gap: var(--spacing-md); /* Increased spacing for better readability */
+}
+
+.footer-links nav,
+.footer-legal nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Microsoft aligns to left */
+  gap: var(--spacing-md);
 }
 
 .footer-links-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #FFFFFF;
-  margin-bottom: 0.5rem;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase; /* Microsoft often uses uppercase for section headers */
+  letter-spacing: 0.5px; /* Slight letter spacing for headers */
 }
 
 .footer-link {
-  color: #CED4DA; /* Lighter gray for links */
+  color: rgba(255, 255, 255, 0.9); /* Maintained contrast improvements */
   text-decoration: none;
-  font-size: 0.95rem;
-  transition: color 0.2s;
+  font-size: var(--font-size-sm);
+  transition: var(--transition-base);
+  padding: var(--spacing-xs) 0; /* Microsoft style - no background padding */
+  font-weight: var(--font-weight-normal); /* Microsoft uses normal weight for footer links */
+  line-height: 2; /* Microsoft uses increased line height for footer links */
 }
 
 .footer-link:hover,
 .footer-link:focus {
-  color: #FF9800; /* Vibrant Orange on hover/focus */
+  color: var(--color-white); /* Microsoft uses white for hover state */
   text-decoration: underline;
-  outline: none;
+  text-underline-offset: 2px; /* Microsoft-style underline */
+  background-color: transparent; /* Microsoft doesn't use background effects */
+}
+
+.footer-link:focus {
+  outline: 1px solid var(--color-white);
+  outline-offset: 2px;
+}
+
+.footer-cta {
+  padding: var(--spacing-xl);
+  background-color: var(--color-primary); /* Microsoft uses solid brand color for CTAs */
+  border-radius: var(--border-radius-sm); /* Microsoft uses smaller radius */
+  border: none; /* Microsoft doesn't use borders on CTAs */
+}
+
+.footer-cta-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-white);
+  margin-bottom: var(--spacing-sm);
+}
+
+.footer-cta-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-white); /* Microsoft uses full white for text on colored backgrounds */
+  margin-bottom: var(--spacing-lg);
+  line-height: var(--line-height-relaxed);
 }
 
 .footer-copyright {
-  text-align: center;
-  font-size: 0.85rem;
-  color: #A0AEC0; /* Even lighter gray for copyright */
-  padding-top: 1.5rem;
-  border-top: 1px solid #3E4E8C; /* Subtle separator line */
+  text-align: left; /* Microsoft aligns copyright to left */
+  font-size: var(--font-size-xs); /* Microsoft typically uses smaller text for copyright */
+  color: rgba(255, 255, 255, 0.9); /* Maintained improved contrast */
+  padding-top: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* More subtle border like Microsoft */
+}
+
+.footer-built-with {
+  margin-top: var(--spacing-sm);
+  font-size: var(--font-size-xs);
+  color: rgba(255, 255, 255, 0.85); /* Maintained improved contrast */
 }
 
 /* Responsive adjustments */
 @media (min-width: 768px) {
   .footer-content {
-    flex-direction: row;
-    align-items: flex-start;
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr; /* Microsoft uses more balanced columns */
+    gap: var(--spacing-xl);
     text-align: left;
+    align-items: start;
   }
 
   .footer-logo-attribution {
     align-items: flex-start;
-    flex: 2; /* Give more space to attribution */
   }
 
-  .footer-links {
+  .footer-navigation {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+    grid-column: span 2;
+  }
+
+  .footer-links,
+  .footer-legal {
     align-items: flex-start;
-    flex: 1; /* Give less space to links */
   }
 
-  .footer-links-title {
-    margin-top: 0; /* Align title better on desktop */
+  .footer-links nav,
+  .footer-legal nav {
+    align-items: flex-start;
+  }
+
+  .footer-cta {
+    grid-column: 4;
+    grid-row: 1;
+    text-align: left; /* Microsoft typically aligns CTAs to left */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .elmentor-footer {
-    padding: 2rem 0 1rem 0;
+    padding: var(--spacing-2xl) 0 var(--spacing-md) 0;
   }
+  
   .footer-container {
-    padding: 0 16px;
+    padding: 0 var(--spacing-md);
   }
+  
   .footer-attribution,
   .footer-link {
-    font-size: 0.85rem;
+    font-size: var(--font-size-xs);
   }
+  
   .footer-copyright {
-    font-size: 0.75rem;
+    font-size: var(--font-size-xs);
   }
-  .footer-devops-logo {
+    .footer-devops-logo {
     height: 40px;
+    filter: brightness(1.2);
+  }
+
+  .footer-cta {
+    padding: var(--spacing-md);
   }
 }

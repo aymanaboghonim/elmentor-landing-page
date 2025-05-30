@@ -61,11 +61,10 @@ export default function Header() {
   const handleMenuToggle = () => setMenuOpen((open) => !open);
   const closeMenu = () => setMenuOpen(false);
 
-  return (
-    <header className={`elmentor-header${scrolled ? ' scrolled' : ''}`}>
+  return (    <header className={`elmentor-header${scrolled ? ' scrolled' : ''}`}>
       <nav className="elmentor-nav" aria-label="Main Navigation">
         <a href="#home" className="elmentor-logo-link" tabIndex={0}>
-          <img src={logo} alt="Elmentor Program Logo" className="elmentor-logo" />
+          <img src={logo} alt="El Mentor Program Logo" className="elmentor-logo" />
         </a>
         {isMobile && (
           <button
@@ -92,9 +91,9 @@ export default function Header() {
               ))}
             </ul>
             <div className="elmentor-lang-switcher" role="group" aria-label="Language Switcher">
-              <button className="lang-btn active" tabIndex={0}>EN</button>
+              <a href="./index.html" className="lang-btn active" tabIndex={0}>English</a>
               <span className="lang-divider">|</span>
-              <button className="lang-btn" tabIndex={0}>ع</button>
+              <a href="./arabic.html" className="lang-btn" tabIndex={0}>العربية</a>
             </div>
           </>
         )}
@@ -116,11 +115,10 @@ export default function Header() {
                 </a>
               </li>
             ))}
-          </ul>
-          <div className="elmentor-lang-switcher-mobile" role="group" aria-label="Language Switcher">
-            <button className="lang-btn active" tabIndex={0}>EN</button>
+          </ul>          <div className="elmentor-lang-switcher-mobile" role="group" aria-label="Language Switcher">
+            <a href="./index.html" className="lang-btn active" tabIndex={0}>EN</a>
             <span className="lang-divider">|</span>
-            <button className="lang-btn" tabIndex={0}>ع</button>
+            <a href="./arabic.html" className="lang-btn" tabIndex={0}>ع</a>
           </div>
         </div>
       )}
