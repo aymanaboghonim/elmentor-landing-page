@@ -1,0 +1,17 @@
+
+> elmentor-landing-page@0.0.0 lint
+> eslint .
+
+
+D:\Github_personal\elmentor-landing-page\scripts\performance-budget-check.js
+  169:14  error  'error' is defined but never used  no-unused-vars
+  220:5   error  'process' is not defined           no-undef
+  226:9   error  'process' is not defined           no-undef
+  227:7   error  'process' is not defined           no-undef
+  230:7   error  'process' is not defined           no-undef
+
+D:\Github_personal\elmentor-landing-page\src\components\OptimizedImage.jsx
+  78:35  warning  The ref value 'imgRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'imgRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+Γ£û 6 problems (5 errors, 1 warning)
+

@@ -1,0 +1,13 @@
+{
+  "ESLint": {
+    "ExitCode": 0,
+    "Output": "\n> elmentor-landing-page@0.0.0 lint\n> eslint .\n\n\nD:\\Github_personal\\elmentor-landing-page\\src\\components\\OptimizedImage.jsx\n  78:35  warning  The ref value 'imgRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'imgRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps\n\nΓ£û 1 problem (0 errors, 1 warning)\n",
+    "Score": 100
+  },
+  "Build": {
+    "ExitCode": 0,
+    "Output": "\n> elmentor-landing-page@0.0.0 build\n> vite build && powershell -File copy-arabic.ps1\n\n\u001b[36mvite v6.3.5 \u001b[32mbuilding for production...\u001b[36m\u001b[39m\ntransforming...\n\u001b[32mΓ£ô\u001b[39m 76 modules transformed.\n\u001b[33m[esbuild css minify]\nΓû▓ [WARNING] Unexpected \"}\" [css-syntax-error]\nSystem.Management.Automation.RemoteException\n    <stdin>:2087:0:\n      2087 Γöé }\n           Γò╡ ^\nSystem.Management.Automation.RemoteException\nSystem.Management.Automation.RemoteException\nΓû▓ [WARNING] Unexpected \"}\" [css-syntax-error]\nSystem.Management.Automation.RemoteException\n    <stdin>:2465:2:\n      2465 Γöé   }\n           Γò╡   ^\nSystem.Management.Automation.RemoteException\n\u001b[39m\nrendering chunks...\ncomputing gzip size...\n\u001b[2mdist/\u001b[22m\u001b[32mindex.html                          \u001b[39m\u001b[1m\u001b[2m  0.54 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m Γöé gzip:  0.32 kB\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[32massets/DevOps-Visions-CAQJtqlm.png  \u001b[39m\u001b[1m\u001b[2m 14.16 kB\u001b[22m\u001b[1m\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[32massets/elmentor-logo-BmwUH4zI.png   \u001b[39m\u001b[1m\u001b[2m 37.91 kB\u001b[22m\u001b[1m\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[32massets/mohamed-radwan-Dt7-SbWM.png  \u001b[39m\u001b[1m\u001b[2m 61.41 kB\u001b[22m\u001b[1m\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[35massets/index-CmE4W8GC.css           \u001b[39m\u001b[1m\u001b[2m 56.95 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m Γöé gzip:  9.11 kB\u001b[22m\n\u001b[2mdist/\u001b[22m\u001b[36massets/index-pX69WG6z.js            \u001b[39m\u001b[1m\u001b[2m246.47 kB\u001b[22m\u001b[1m\u001b[22m\u001b[2m Γöé gzip: 77.78 kB\u001b[22m\n\u001b[32mΓ£ô built in 820ms\u001b[39m\nArabic page copied to dist folder",
+    "Score": 100
+  },
+  "OverallScore": 100
+}

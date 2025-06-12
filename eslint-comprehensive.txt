@@ -1,0 +1,30 @@
+
+> elmentor-landing-page@0.0.0 lint
+> eslint .
+
+
+D:\Github_personal\elmentor-landing-page\footer-check.js
+  1:22  error  'require' is not defined  no-undef
+
+D:\Github_personal\elmentor-landing-page\src\App.jsx
+  1:10  error  'useState' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\Github_personal\elmentor-landing-page\src\ArabicApp.jsx
+  1:10  error  'useState' is defined but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  1:20  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+D:\Github_personal\elmentor-landing-page\src\sections\ActivitiesSection.jsx
+  66:102  error  'index' is defined but never used  no-unused-vars
+
+D:\Github_personal\elmentor-landing-page\src\sections\NewsSection.jsx
+   8:17  error    'setError' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                     no-unused-vars
+  61:6   warning  React Hook useEffect has a missing dependency: 'mockNews'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+D:\Github_personal\elmentor-landing-page\src\utils\performanceOptimizations.js
+  88:7  error  'process' is not defined  no-undef
+
+D:\Github_personal\elmentor-landing-page\src\utils\uxEnhancements.js
+  10:5  error  'easing' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 9 problems (8 errors, 1 warning)
+
