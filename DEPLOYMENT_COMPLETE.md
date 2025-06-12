@@ -34,12 +34,12 @@
 ## 🌐 Live Deployment Links
 
 ### **Main Site** (English)
-**🔗 https://[your-github-username].github.io/elmentor-landing-page/**
+**🔗 https://aymanaboghonim.github.io/elmentor-landing-page/**
 
 ### **Arabic Version**  
-**🔗 https://[your-github-username].github.io/elmentor-landing-page/arabic.html**
+**🔗 https://aymanaboghonim.github.io/elmentor-landing-page/arabic.html**
 
-> **Note**: Replace `[your-github-username]` with your actual GitHub username to access the live site.
+> **Note**: Deployment complete on June 13, 2025. The site is now live at the URLs above.
 
 ## 📋 Peer Testing Checklist
 
