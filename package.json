@@ -17,6 +17,8 @@
     "test:business": "pwsh -File scripts/enhanced-elmentor-automation.ps1 business",
     "quality:all": "npm run test:comprehensive",
     "deploy:safe": "npm run test:quick && npm run deploy",
+    "deploy:verify": "pwsh -File scripts/test-deployment.ps1 -VerifyAssets",
+    "build:clean": "pwsh -File scripts/test-deployment.ps1 -BuildTest -ClearCache",
     "perf:check": "node scripts/performance-budget-check.js",
     "perf:check:strict": "node scripts/performance-budget-check.js --strict",
     "build:perf": "npm run build && npm run perf:check"
