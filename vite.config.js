@@ -64,11 +64,10 @@ export default defineConfig(({ mode }) => ({
   // Optimize dependencies
   optimizeDeps: {
     include: ['react', 'react-dom', 'react-icons/fa']
-  },
-  // CSS optimization
+  },  // CSS optimization
   css: {
     postcss: {
       plugins: []
     }
   }
-})
+}))
