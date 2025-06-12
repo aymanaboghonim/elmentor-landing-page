@@ -23,7 +23,8 @@ This PR implements a comprehensive restructuring of the repository to improve or
 The changes maintain full compatibility with GitHub Pages deployment because:
 1. The critical `vite.config.js` file remains in the root with the correct base path
 2. All script references in package.json were updated to point to new locations
-3. The deployment process was verified with a dry run
+3. The deployment process (to the `gh-pages` branch) was verified with a dry run
+4. The `gh-pages` package deployment setup is preserved
 
 ## Additional Benefits
 - Reduced root directory clutter (60+ files down to essential core)
